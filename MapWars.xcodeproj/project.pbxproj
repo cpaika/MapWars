@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4725A1711A086F1D0062A4E5 /* CBPGameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4725A1701A086F1D0062A4E5 /* CBPGameScreenViewController.m */; };
+		4725A1731A0876020062A4E5 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4725A1721A0876020062A4E5 /* settings.png */; };
+		4725A1751A0877F00062A4E5 /* settings_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4725A1741A0877F00062A4E5 /* settings_highlighted.png */; };
+		4725A1791A08B6170062A4E5 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4725A1781A08B6170062A4E5 /* backButton.png */; };
 		474A6D1919F6CEF500E59D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A6D1819F6CEF500E59D39 /* Foundation.framework */; };
 		474A6D1B19F6CEF500E59D39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A6D1A19F6CEF500E59D39 /* CoreGraphics.framework */; };
 		474A6D1D19F6CEF500E59D39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A6D1C19F6CEF500E59D39 /* UIKit.framework */; };
@@ -19,6 +23,11 @@
 		474A6D3419F6CEF600E59D39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A6D1C19F6CEF500E59D39 /* UIKit.framework */; };
 		474A6D3C19F6CEF600E59D39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474A6D3A19F6CEF600E59D39 /* InfoPlist.strings */; };
 		474A6D3E19F6CEF600E59D39 /* MapWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A6D3D19F6CEF600E59D39 /* MapWarsTests.m */; };
+		47738D5D1A01D05E00D8FF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47738D5C1A01D05E00D8FF53 /* Main.storyboard */; };
+		47738D601A01D18200D8FF53 /* CBPStartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47738D5F1A01D18200D8FF53 /* CBPStartScreenViewController.m */; };
+		47738D641A01D55100D8FF53 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47738D631A01D55100D8FF53 /* MapKit.framework */; };
+		47738D671A01DB9800D8FF53 /* CBPLoadScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47738D661A01DB9800D8FF53 /* CBPLoadScreenViewController.m */; };
+		47738D6A1A01DF2E00D8FF53 /* CBPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47738D691A01DF2E00D8FF53 /* CBPRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4725A16F1A086F1D0062A4E5 /* CBPGameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPGameScreenViewController.h; sourceTree = "<group>"; };
+		4725A1701A086F1D0062A4E5 /* CBPGameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPGameScreenViewController.m; sourceTree = "<group>"; };
+		4725A1721A0876020062A4E5 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		4725A1741A0877F00062A4E5 /* settings_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_highlighted.png; sourceTree = "<group>"; };
+		4725A1781A08B6170062A4E5 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		474A6D1519F6CEF500E59D39 /* MapWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474A6D1819F6CEF500E59D39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		474A6D1A19F6CEF500E59D39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,14 @@
 		474A6D3919F6CEF600E59D39 /* MapWarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapWarsTests-Info.plist"; sourceTree = "<group>"; };
 		474A6D3B19F6CEF600E59D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		474A6D3D19F6CEF600E59D39 /* MapWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapWarsTests.m; sourceTree = "<group>"; };
+		47738D5C1A01D05E00D8FF53 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		47738D5E1A01D18200D8FF53 /* CBPStartScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPStartScreenViewController.h; sourceTree = "<group>"; };
+		47738D5F1A01D18200D8FF53 /* CBPStartScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPStartScreenViewController.m; sourceTree = "<group>"; };
+		47738D631A01D55100D8FF53 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47738D651A01DB9800D8FF53 /* CBPLoadScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPLoadScreenViewController.h; sourceTree = "<group>"; };
+		47738D661A01DB9800D8FF53 /* CBPLoadScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPLoadScreenViewController.m; sourceTree = "<group>"; };
+		47738D681A01DF2E00D8FF53 /* CBPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPRootViewController.h; sourceTree = "<group>"; };
+		47738D691A01DF2E00D8FF53 /* CBPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47738D641A01D55100D8FF53 /* MapKit.framework in Frameworks */,
 				474A6D1B19F6CEF500E59D39 /* CoreGraphics.framework in Frameworks */,
 				474A6D1D19F6CEF500E59D39 /* UIKit.framework in Frameworks */,
 				474A6D1919F6CEF500E59D39 /* Foundation.framework in Frameworks */,
@@ -96,6 +119,7 @@
 		474A6D1719F6CEF500E59D39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47738D631A01D55100D8FF53 /* MapKit.framework */,
 				474A6D1819F6CEF500E59D39 /* Foundation.framework */,
 				474A6D1A19F6CEF500E59D39 /* CoreGraphics.framework */,
 				474A6D1C19F6CEF500E59D39 /* UIKit.framework */,
@@ -107,6 +131,15 @@
 		474A6D1E19F6CEF500E59D39 /* MapWars */ = {
 			isa = PBXGroup;
 			children = (
+				4725A16F1A086F1D0062A4E5 /* CBPGameScreenViewController.h */,
+				4725A1701A086F1D0062A4E5 /* CBPGameScreenViewController.m */,
+				47738D681A01DF2E00D8FF53 /* CBPRootViewController.h */,
+				47738D691A01DF2E00D8FF53 /* CBPRootViewController.m */,
+				47738D651A01DB9800D8FF53 /* CBPLoadScreenViewController.h */,
+				47738D5E1A01D18200D8FF53 /* CBPStartScreenViewController.h */,
+				47738D661A01DB9800D8FF53 /* CBPLoadScreenViewController.m */,
+				47738D5F1A01D18200D8FF53 /* CBPStartScreenViewController.m */,
+				47738D5C1A01D05E00D8FF53 /* Main.storyboard */,
 				474A6D2719F6CEF500E59D39 /* CBPAppDelegate.h */,
 				474A6D2819F6CEF500E59D39 /* CBPAppDelegate.m */,
 				474A6D2A19F6CEF500E59D39 /* Images.xcassets */,
@@ -118,6 +151,9 @@
 		474A6D1F19F6CEF500E59D39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4725A1781A08B6170062A4E5 /* backButton.png */,
+				4725A1741A0877F00062A4E5 /* settings_highlighted.png */,
+				4725A1721A0876020062A4E5 /* settings.png */,
 				474A6D2019F6CEF500E59D39 /* MapWars-Info.plist */,
 				474A6D2119F6CEF500E59D39 /* InfoPlist.strings */,
 				474A6D2419F6CEF500E59D39 /* main.m */,
@@ -192,6 +228,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Apress;
 				TargetAttributes = {
+					474A6D1419F6CEF500E59D39 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					474A6D2F19F6CEF600E59D39 = {
 						TestTargetID = 474A6D1419F6CEF500E59D39;
 					};
@@ -222,6 +265,10 @@
 			files = (
 				474A6D2319F6CEF500E59D39 /* InfoPlist.strings in Resources */,
 				474A6D2B19F6CEF500E59D39 /* Images.xcassets in Resources */,
+				4725A1751A0877F00062A4E5 /* settings_highlighted.png in Resources */,
+				4725A1731A0876020062A4E5 /* settings.png in Resources */,
+				4725A1791A08B6170062A4E5 /* backButton.png in Resources */,
+				47738D5D1A01D05E00D8FF53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47738D671A01DB9800D8FF53 /* CBPLoadScreenViewController.m in Sources */,
+				47738D601A01D18200D8FF53 /* CBPStartScreenViewController.m in Sources */,
+				4725A1711A086F1D0062A4E5 /* CBPGameScreenViewController.m in Sources */,
+				47738D6A1A01DF2E00D8FF53 /* CBPRootViewController.m in Sources */,
 				474A6D2919F6CEF500E59D39 /* CBPAppDelegate.m in Sources */,
 				474A6D2519F6CEF500E59D39 /* main.m in Sources */,
 			);
@@ -362,6 +413,7 @@
 				GCC_PREFIX_HEADER = "MapWars/MapWars-Prefix.pch";
 				INFOPLIST_FILE = "MapWars/MapWars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,6 +427,7 @@
 				GCC_PREFIX_HEADER = "MapWars/MapWars-Prefix.pch";
 				INFOPLIST_FILE = "MapWars/MapWars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +491,7 @@
 				474A6D4319F6CEF600E59D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		474A6D4419F6CEF600E59D39 /* Build configuration list for PBXNativeTarget "MapWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +500,7 @@
 				474A6D4619F6CEF600E59D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
